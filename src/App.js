@@ -9,11 +9,12 @@ import Newdemo from "./components/Newdemo";
 import Anotherdemo from "./components/Anotherdemo";
 import Form from "./components/Form";
 import Signup from "./components/Signup";
+import TextArea from "./components/TextArea";
 
 function App() {
   return (
     <div className="App">
-      <Signup />
+      <TextArea />
     </div>
   );
 }
