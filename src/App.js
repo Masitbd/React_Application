@@ -11,10 +11,11 @@ import Form from "./components/Form";
 import Signup from "./components/Signup";
 import TextArea from "./components/TextArea";
 import Selectdropdown from "./components/Selectdropdown";
+import Listview from "./components/Listview";
 function App() {
   return (
     <div className="App">
-      <Selectdropdown />
+      <Listview />
     </div>
   );
 }
