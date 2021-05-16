@@ -1,10 +1,10 @@
 import "./App.css";
-import JsonList from "./components/JsonList";
+import CountryList from "./components/CountryList";
 
 function App() {
   return (
     <div className="App">
-      <JsonList />
+      <CountryList />
     </div>
   );
 }
@@ -32,4 +32,5 @@ import Signup from "./components/Signup";
 import TextArea from "./components/TextArea";
 import Selectdropdown from "./components/Selectdropdown";
 import Listview from "./components/Listview";
+import JsonList from "./components/JsonList";
 */
