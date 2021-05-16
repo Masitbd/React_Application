@@ -1,4 +1,24 @@
 import "./App.css";
+import JsonList from "./components/JsonList";
+
+function App() {
+  return (
+    <div className="App">
+      <JsonList />
+    </div>
+  );
+}
+
+export default App;
+
+/*
+<Hello name="Murad" />
+      <Welcome id="10" />
+      <MyFun />
+      <Arrow />
+      */
+
+/*
 import Arrow from "./components/Arrow";
 import MyFun from "./components/Boot";
 import Hello from "./components/Hello";
@@ -12,19 +32,4 @@ import Signup from "./components/Signup";
 import TextArea from "./components/TextArea";
 import Selectdropdown from "./components/Selectdropdown";
 import Listview from "./components/Listview";
-function App() {
-  return (
-    <div className="App">
-      <Listview />
-    </div>
-  );
-}
-
-export default App;
-
-/*
-<Hello name="Murad" />
-      <Welcome id="10" />
-      <MyFun />
-      <Arrow />
-      */
+*/
