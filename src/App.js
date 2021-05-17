@@ -1,10 +1,10 @@
 import "./App.css";
-import ReactTableDemo from "./components/ReactTableDemo";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <div className="App">
-      <ReactTableDemo />
+      <Navigation />
     </div>
   );
 }
