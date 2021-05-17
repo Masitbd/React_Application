@@ -1,4 +1,4 @@
-# This is the react application for testing the different options
+# This is the react application for testing the different components
 
 ## Add form
 

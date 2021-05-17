@@ -1,10 +1,16 @@
 import "./App.css";
-import Navigation from "./components/Navigation";
+
+import MyRouteAdvance from "./components/MyRouteAdvance";
+import MyNavigationAdvance from "./components/MyNavigationAdvance";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
+    <div>
+      <BrowserRouter>
+        <MyNavigationAdvance />
+        <MyRouteAdvance />
+      </BrowserRouter>
     </div>
   );
 }
