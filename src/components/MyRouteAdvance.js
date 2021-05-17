@@ -12,7 +12,7 @@ class MyRouteAdvance extends Component {
         <Route exact path="/" component={Home} />
         <Route path="/page1" component={Page1} />
         <Route path="/page2" component={Page2} />
-        <Route path="/page3" component={Page3} />
+        <Route path="/page3/:username" component={Page3} />
       </div>
     );
   }
