@@ -1,10 +1,10 @@
 import "./App.css";
-import Post from "./components/Post";
+import ReactTableDemo from "./components/ReactTableDemo";
 
 function App() {
   return (
     <div className="App">
-      <Post />
+      <ReactTableDemo />
     </div>
   );
 }
