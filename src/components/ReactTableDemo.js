@@ -1,17 +1,39 @@
 import React, { Component } from "react";
 import ReactTable from "react-table-6";
 import "react-table-6/react-table.css";
+import axios from "axios";
+import { actions } from "react-table";
 
 class ReactTableDemo extends Component {
+  constructor() {
+    super();
+    this.state = {
+      tableInformation: [],
+    };
+  }
+
+  componentDidMount() {
+    axios
+      .get("https://restcountries.eu/rest/v2/all")
+      .then((Response) => {
+        this.setState({ tableInformation: Response.data });
+      })
+      .catch((error) => {
+        alert("Something went wrong");
+      });
+  }
   render() {
-    const tableData = [
+    const tableData = this.state.tableInformation;
+    /*
+    [
       { Name: "Murad", Age: "28" },
       { Name: "Mamun", Age: "38" },
       { Name: "Kamal", Age: "27" },
     ];
+    */
     const col = [
-      { Header: "Name", accessor: "Name" },
-      { Header: "Age", accessor: "Age" },
+      { Header: "Name", accessor: "name" },
+      { Header: "Capital", accessor: "capital" },
     ];
     return (
       <div>
