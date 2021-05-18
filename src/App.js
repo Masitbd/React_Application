@@ -4,12 +4,12 @@ import MyRouteAdvance from "./components/MyRouteAdvance";
 import MyNavigationAdvance from "./components/MyNavigationAdvance";
 import { BrowserRouter } from "react-router-dom";
 import HookDemo from "./components/HookDemo";
+import Son from "./components/Son";
 
 function App() {
   return (
     <div>
-      <HookDemo />
-      <butt>Change</butt>
+      <Son />
     </div>
   );
 }
