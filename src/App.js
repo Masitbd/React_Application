@@ -9,7 +9,7 @@ import Son from "./components/Son";
 function App() {
   return (
     <div>
-      <Son />
+      <Son name="Puti name is salam" />
     </div>
   );
 }
